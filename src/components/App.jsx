@@ -1,4 +1,5 @@
 import SongList from "./SongList";
+import SongDetail from "./SongDetail";
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <div className="ui row">
         <div className="column eight wide">
           <SongList></SongList>
+        </div>
+        <div className="column eight wide">
+          <SongDetail></SongDetail>
         </div>
       </div>
     </div>
